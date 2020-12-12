@@ -28,7 +28,7 @@ import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.text.DecimalFormat;
 import javax.swing.JPanel;
-public class GraphicsDisplay extends JPanel {
+public class GraphicDisplay extends JPanel {
     // Список координат точек для построения графика
     private Double[][] graphicsData;
     // Флаговые переменные, задающие правила отображения графика
@@ -49,7 +49,7 @@ public class GraphicsDisplay extends JPanel {
     // Различные шрифты отображения надписей
     private Font axisFont;
 
-    public GraphicsDisplay() {
+    public GraphicDisplay() {
 // Цвет заднего фона области отображения - белый
         setBackground(Color.WHITE);
 // Сконструировать необходимые объекты, используемые в рисовании

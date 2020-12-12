@@ -1,6 +1,5 @@
 package bsu.group7.serega.pashko;
 
-import javax.swing.*;
 import java.awt.BorderLayout;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -30,7 +29,7 @@ public class MainFrame extends JFrame {
     private JCheckBoxMenuItem showMarkersMenuItem;
     private JCheckBoxMenuItem showExtremumMenuItem;
     // Компонент-отображатель графика
-    private GraphicsDisplay display = new GraphicsDisplay();
+    private GraphicDisplay display = new GraphicDisplay();
     // Флаг, указывающий на загруженность данных графика
     private boolean fileLoaded = false;
     public MainFrame() {
