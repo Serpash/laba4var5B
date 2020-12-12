@@ -87,3 +87,8 @@ public class GraphicsDisplay extends JPanel {
         this.showMarkers = showMarkers;
         repaint();
     }
+
+    public void setShowExtremum(boolean showExtremum) {
+        this.showExtremum = showExtremum;
+        repaint();
+    }
